@@ -1,0 +1,378 @@
+*{margin: 0; padding: 0; overflow-x: none; font-family: 'Poppins', sans-serif;}
+
+.corpo{
+    background-color: #0C0C0C;
+    margin-top: 1%;
+}
+
+.menu{
+    display: inline;
+    position: unset;
+}
+
+.menuLinks{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 0.5%;
+    margin-left: 1%;
+    font-size: 20px;
+    padding: 1px 5px 1px 5px;
+}
+
+.menuLinks:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color:#4F4F4F;
+    border: 1px solid #4F4F4F;
+    border-radius: 8px;
+    transition: background-color 0.4s linear 0.2s, border-color 0.01s linear 0.2s, border 0.01s linear 0.2s;
+}
+
+.menu div{
+    display: inline;
+    position: relative;
+    float: right;
+    margin-right: 0.5%;
+}
+
+.botoesMenu{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0B8AFF;
+    border: 1px #0B8AFF solid;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+}
+
+.iconeCarrinho{
+    color: #fff;
+    margin-right: 10px;
+    background-color: #DAA520;
+    border: 1px solid #DAA520;
+    padding: 5px 8px 9px 8px;
+    border-radius: 5px;
+}
+
+.iconeCarrinho:hover{
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s linear 0.2s;
+}
+
+.botoesMenu:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #47a7ff;
+    border: 1px solid #47a7ff;
+    transition: background-color 0.2s linear 0.2s, border 0.2s linear 0.2s, border-color 0.1s linear;
+}
+
+.menu hr{
+    background-color: #fff;
+    margin-top: 1%;
+    width: 50%;
+    margin-left: 25%;
+    height: 1px;
+    border: none;
+}
+
+.corpo hr{
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    height: 2px;
+    color: #fff;
+    background-color: #fff;
+    margin-top: 2.5%;
+    opacity: 50%;
+}
+
+.rodape{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 4%;
+}
+
+.rodapeLinha1{
+    margin-top: 1%;
+    display: grid;
+}
+
+.rodapeLinha1 a{
+    text-decoration: none;
+    color: #DAA520;
+}
+
+.rodapeLinha1 a:hover{
+    text-decoration: none;
+    color: #DAA520;
+}
+
+
+.rodapeLinha2{
+    margin-top: 1%;
+    display: grid;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.rodapeLinha2 a{
+    text-decoration: none;
+    color: #DAA520;
+}
+
+.rodapeLinha2 a:hover{
+    text-decoration: none;
+    color: #DAA520;
+}
+
+.rodapeLinha3{
+    margin-top: 1%;
+    display: grid;
+}
+
+.rodapeLinha3 a{
+    text-decoration: none;
+    color: #DAA520;
+}
+
+.rodapeLinha3 a:hover{
+    text-decoration: none;
+    color: #DAA520;
+}
+
+.tituloRodape{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.titulo{
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.subtitulo{
+    color: #fff;
+    text-align: center;
+}
+
+.artistasTitulo{
+    color: #fff;
+    margin-left: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.backArtistas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.backSobreNos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    text-align: justify;
+}
+
+.backAntesRodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-top: 2%;
+    width: 100%;
+    height: 600px;
+}
+
+.textoAntesRodape{
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.linkAntesRodape{
+    text-decoration: none;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #0B8AFF;
+    padding: 15px 15px 15px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.linkAntesRodape:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #47a7ff;
+}
+
+.backFormLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-top: 0.5%;
+    width: 100%;
+    height: 350px;
+}
+
+.formLogin{
+    display: grid;
+}
+
+.camposLogin{
+    border-radius: 3px;
+    width: 320px;
+    height: 35px;
+    border: 1px solid #0C0C0C;;
+    padding: 0 0 0 5px;
+    font-size: 14px;
+}
+
+.camposLogin:focus{
+    outline: none;
+    border: none;
+    border: 2px solid #DAA520;
+}
+
+.botaoLogin{
+    background-color: #0B8AFF;
+    color: #fff;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.botaoLogin:hover{
+    color: #fff;
+    background-color: #47a7ff;
+}
+
+.itensLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.linksLogin, .linksLogin:hover{
+    text-decoration: none;
+    color: #DAA520;
+}
+
+.formCadastro{
+    display: grid;
+    margin-top: 4%;
+}
+
+.itensCadastro{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cardsBeats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.audioBeats{
+    width: 90%;
+    margin: 5%;
+}
+
+.botoesCard, .botoesCard:hover{
+    background-color: #0B8AFF;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.valorBeat{
+    color: #DAA520;
+    font-weight: bolder;
+}
+
+.backCategorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoesCategorias{
+    margin-top: 0.5%;
+    background-color: #0B8AFF;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 1%;
+}
+
+.botoesCategorias:hover{
+    text-decoration: none;
+    background-color: #47a7ff;
+    color: #fff;
+}
+
+.categoriaAtiva, .categoriaAtiva:hover{
+    background-color:#DAA520;
+}
+
+.btFinalizarCompra{
+    text-align: center;
+    background-color: #0B8AFF;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    -webkit-transition: 0.6s;
+}
+
+.btFinalizarCompra:hover{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #DAA520;
+    -webkit-transition: 0.6s;
+}
+
+.backBtFinalizar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
